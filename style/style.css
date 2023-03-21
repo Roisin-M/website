@@ -1,0 +1,95 @@
+
+nav
+{
+    background-color: rgb(159, 159, 228);
+    padding: 5px;
+}
+nav ul
+{
+    text-align: center;
+    font-size: 1.2em;
+}
+nav ul li
+{
+    list-style-type:none;
+    background-color: yellow;
+    display: inline;/*horizontal display*/
+    padding: 15px;
+    margin: 5px;
+    border: 2px; 
+    border-style: solid;
+    border-color: blue;
+    border-radius: 10px;
+}
+nav ul li:hover
+{
+    background-color: darkgrey;
+}
+nav ul li a
+{
+    color:black;
+    text-decoration: none;
+}
+header
+{
+    background-color: blue;
+    padding: 10px;
+}
+footer
+{
+    padding: 10px;
+    background-color: black;
+}
+footer p
+{
+    text-align: center;
+    color: white;
+}
+
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers --> so images aren't with footer background*/
+  .row::after {
+    content: "";
+    clear: both;
+    display:table;
+  }
+  /*float image to the left of the text*/
+  .leftText{
+    float: left;
+    width:25%;
+    height:25%;
+  }
+  /*center and add margin around image and paragraph*/
+  .sectionDisplay{
+    border: 1px;
+    border-color: #000000;
+    border-style: solid;
+    margin:100px; 
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+  .textCenter{
+    text-align: center;
+  }
+  .col_detail{
+    column-count: 3;
+    column-rule: 2px solid purple;
+    column-gap: 50px;
+    padding: 2px;
+    text-align: justify;
+}
