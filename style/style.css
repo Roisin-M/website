@@ -13,7 +13,7 @@ header nav ul
 header nav ul li
 {
     list-style-type:none;
-    display: inline;/*horizontal display*/
+    display: inline;
     background-color: yellow;
     padding: 0.75em;
     margin: 0.25em;
@@ -179,7 +179,6 @@ aside {
   padding-left: 30%;
 
 }
-  /*center and add margin around image and paragraph*/
   .sectionDisplay{
     border: 1px;
     border-color: #000000;
