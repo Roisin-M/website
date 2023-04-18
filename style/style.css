@@ -171,19 +171,7 @@ aside {
     width: 30%;
     padding: 5px;
   }
-  
-  /* Clear floats after image containers --> so images aren't with footer background*/
-  .row::after {
-    content: "";
-    clear: both;
-    display:table;
-  }
-  /*float image to the left of the text*/
-  .leftText{
-    float: left;
-    width:25%;
-    height:25%;
-  }
+
   /*center and add margin around image and paragraph*/
   .sectionDisplay{
     border: 1px;
@@ -199,10 +187,7 @@ aside {
     margin-right: auto;
     width: 25%;
   }
-  .center-image{
-    margin-left: 35%;
-    margin-right: 65%;
-  }
+
   .textCenter{
     text-align: center;
   }
@@ -234,6 +219,7 @@ aside {
   border-style: solid;
   border-color:transparent;
   border-radius: 0.5em;
+  width:100%;
 }
 .videoContent{
   float:right;
