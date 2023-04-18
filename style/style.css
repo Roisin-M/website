@@ -62,6 +62,12 @@ header h1{
   border-color:black;
   border-radius: 0.5em;
 }
+
+
+.center-image{
+  margin-left: 40%;
+  margin-right: 60%;
+}
 #header{
   padding: 10px;
   background-color: transparent;
@@ -76,29 +82,29 @@ footer {
   clear: both;
 }
 
-.footer-table {
+footer table {
   width: 100%;
   border-collapse: collapse;
 }
 
-.footer-table td {
+footer table td {
   vertical-align: top;
   padding: 10px;
-}
+} 
 
-.footer-table img {
+footer table img {
   max-width: 100%;
   height: auto;
 }
 
-.footer-table p {
+footer table p {
   font-size: 14px;
   margin: 0;
 }
 
-.footer-table h3 {
+footer table h3 {
   margin: 0 0 10px;
-}
+} 
 
 .social-media {
   list-style: none;
@@ -165,13 +171,14 @@ aside {
   border-color:black;
   border-radius: 0.5em;
 }
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-    float: left;
-    width: 30%;
-    padding: 5px;
-  }
 
+
+.col-images{
+  max-width: 7em;
+  height:11em;
+  padding-left: 30%;
+
+}
   /*center and add margin around image and paragraph*/
   .sectionDisplay{
     border: 1px;
